@@ -64,10 +64,11 @@ handles.postionFile_name=[];
 handles.imgfolder_name=[];
 handles.imageFile_names=[];
 handles.modalitiesInfo = {'Confocal' 'confocal';
-    'Split Detection' 'split_det';
-    'Dark Field' 'avg';
-    'Modality 4' '';
-    'Modality 5' '';};
+    'Dark Field' 'darkfield';
+    'SplitNS' 'splitNS';
+    'SplitWE' 'splitWE';
+    'SplitNWSE' 'splitNWSE';
+    'SplitNESW' 'splitNESW';};
 handles.inputExt = 1;
 handles.device_mode = 'multi_modal';
 %default to .tif
